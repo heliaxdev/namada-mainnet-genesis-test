@@ -1,0 +1,29 @@
+[[established_account]]
+vp = "vp_user"
+threshold = 1
+public_keys = ["tpknam1qzgheumv3l64ev02a0ut0lq08wm6jeuqrk5wufevxvv2ek7sawdfsxerkp0"]
+
+[[validator_account]]
+address = "tnam1qyhy6p78xgdqtj9kyea0svwemjryezacuyt5kj3d"
+vp = "vp_user"
+commission_rate = "0.05"
+max_commission_rate_change = "0.01"
+net_address = "172.22.191.255:26656"
+consensus_key = "tpknam1qqx35apl2nz8ewzsjumg63hvacwh7hcc9n8wga4x98d7kyfyrd72km8608q"
+protocol_key = "tpknam1qp27jguq6gf0d4je9gnt65tug0u7ee3rppthyjl963fv45jydd7v5xc9usk"
+tendermint_node_key = "tpknam1qztzf9jg2cumcy2tk728tlqra3jzelyhkt5956vtzdk400pwnk8qs70trsz"
+eth_hot_key = "tpknam1qyp239th00csmualdm7y25fs60nk2vgn8e0kdx44dcyq2du2rvqad0gkma9ym"
+eth_cold_key = "tpknam1qypjwtz5vtx8cvp7l633cuv7jpzxa623g5t8pul2wg0jvxha94fk7ts2wtfvl"
+
+[validator_account.metadata]
+email = "kevin@decentrio.ventures"
+description = "Decentrio provide software solutions and infrastructure services, as well as an active contributor for the Cosmos blockchain ecosystem"
+website = "https://decentrio.ventures"
+discord_handle = "decentrio"
+avatar = "https://pbs.twimg.com/profile_images/1750904850492407808/cTiPdCV3_400x400.jpg"
+name = "Decentrio"
+
+[[bond]]
+source = "tnam1qyhy6p78xgdqtj9kyea0svwemjryezacuyt5kj3d"
+validator = "tnam1qyhy6p78xgdqtj9kyea0svwemjryezacuyt5kj3d"
+amount = "1000000"
